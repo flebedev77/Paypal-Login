@@ -2,20 +2,173 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "pp-sans-big-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Bold.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalSansBig-Light.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-medium";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalSansBig-Medium.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Medium.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalSansBig-Regular.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-big-thin";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Thin.svg")
+      format("svg");
+}
+/*Paypal Sans Small-------------------------------------*/
+@font-face {
+  font-family: "pp-sans-small-bold";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-light";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Light.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-medium";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-regular";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-sans-small-thin";
+  src: url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.eot");
+  src:
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Thin.svg")
+      format("svg");
+}
+@font-face {
+  font-family: "pp-open-bold";
+  src:
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalOpen-Bold.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalOpen-Bold.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "pp-open-regular";
+  src:
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalOpen-Regular.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalOpen-Regular.woff")
+      format("woff");
+}
+@font-face {
+  font-family: "pp-open-medium";
+  src:
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalOpen-Medium.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/paypal-ui/fonts/PayPalOpen-Medium.woff2")
+      format("woff");
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "pp-open-regular";
+}
+
+.link {
+  color: #0070e0;
+  transition: 0.1s;
+  transition-property: outline;
+  border-radius: 5px;
+  display: flex;
+  width: max-content;
+  padding: 2px 5px;
+}
+
+.link:focus {
+  color: #1471e0;
+  outline: 4px solid #097ff5;
+}
+
+.link:hover {
+  color: #73a7ff;
+}
+
+.font-extraextrabold {
+  font-weight: 600;
+  font-family: "pp-open-bold";
 }
